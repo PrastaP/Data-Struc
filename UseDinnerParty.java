@@ -6,18 +6,18 @@ public class UseDinnerParty {
         Scanner scanner = new Scanner(System.in);
         DinnerParty dinnerParty = new DinnerParty();
 
-        System.out.print("Enter number of guests for the party >> ");
+        System.out.print("Enter number of guests");
         int guests = scanner.nextInt();
         dinnerParty.setGuests(guests);
 
-        System.out.println("The party has " + dinnerParty.getGuests() + " guests");
+        System.out.println("The party has" + dinnerParty.getGuests() + "guests");
         dinnerParty.displayInvitation();
 
-        System.out.print("Enter number of guests for the dinner party >> ");
+        System.out.print("Enter number of guests");
         int dinnerGuests = scanner.nextInt();
         dinnerParty.setGuests(dinnerGuests);
 
-        System.out.print("Enter the menu option -- 1 for chicken or 2 for Veggie >> ");
+        System.out.print("Enter the menu option -- 1 for chicken tikka masala or 2 for veggie paneer >> ");
         int choice = scanner.nextInt();
         dinnerParty.setDinnerChoice(choice);
 
