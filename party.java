@@ -10,6 +10,6 @@ public class Party {
         return guests;
     }
     public void displayInvitation() {
-        System.out.println("come to my party!");
+        System.out.println("come to my party");
     }
 }
