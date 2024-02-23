@@ -5,11 +5,11 @@ public class UseParty {
         Scanner scanner = new Scanner(System.in);
         Party party = new Party();
 
-        System.out.print("Enter number of guests for the party");
+        System.out.print("Enter number of people for party");
         int guests = scanner.nextInt();
         party.setGuests(guests);
 
-        System.out.println("The party has" + party.getGuests() + "guests");
+        System.out.println("The party has" + party.getGuests() + "people");
         party.displayInvitation();
     }
 }
