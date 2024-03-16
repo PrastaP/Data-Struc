@@ -1,10 +1,10 @@
 // Color.java
 enum Color {
-    PURPLE, BLUE, GREEN,RED, SILVER, GOLD
+    BLACK, BLUE, GREEN, RED, WHITE,YELLO
 }
 // Model.java
 enum Model {
-    SEDAN,CONVERTIBLE, MINIVAN,SUV, TRUCK,COUPE
+    SEDAN,CONVERTIBLE, MINIVAN
 }
 // Car.java
 public class Car {
